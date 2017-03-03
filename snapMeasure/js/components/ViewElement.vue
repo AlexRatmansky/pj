@@ -1,10 +1,10 @@
 <template>
   <div :class="$style.element"
        :style="{
-      top: elementProps.top,
-      left: elementProps.left,
-      width: elementProps.width,
-      height: elementProps.height
+      top: elementProps.top + 'px',
+      left: elementProps.left + 'px',
+      width: elementProps.width + 'px',
+      height: elementProps.height + 'px'
       }"
   ></div>
 </template>
